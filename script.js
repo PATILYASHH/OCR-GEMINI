@@ -17,7 +17,7 @@ document.getElementById('upload-form').addEventListener('submit', function(event
         formData.append('file', blob, 'text.png');
 
         const apiEndpoint = 'https://api.gemini.com/v1/ocr'; 
-        const apiKey = 'AIzaSyAxGv8UTjnosr_ApM0NU9ebHuSzH2JXv2M'; // Replace with your actual API key
+        const apiKey = '#'; // Replace with your actual API key
 
         fetch(apiEndpoint, {
             method: 'POST',
